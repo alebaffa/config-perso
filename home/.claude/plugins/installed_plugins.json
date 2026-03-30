@@ -1,0 +1,165 @@
+{
+  "version": 2,
+  "plugins": {
+    "context7@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "~/.claude/plugins/cache/claude-plugins-official/context7/unknown",
+        "version": "unknown",
+        "installedAt": "2026-02-16T00:11:42.459Z",
+        "lastUpdated": "2026-03-26T23:37:42.734Z",
+        "gitCommitSha": "2cd88e7947b7382e045666abee790c7f55f669f3"
+      }
+    ],
+    "code-review@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "~/.claude/plugins/cache/claude-plugins-official/code-review/unknown",
+        "version": "unknown",
+        "installedAt": "2026-02-16T00:14:59.891Z",
+        "lastUpdated": "2026-03-26T23:37:42.736Z",
+        "gitCommitSha": "2cd88e7947b7382e045666abee790c7f55f669f3"
+      }
+    ],
+    "feature-dev@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "~/.claude/plugins/cache/claude-plugins-official/feature-dev/unknown",
+        "version": "unknown",
+        "installedAt": "2026-02-16T00:16:37.952Z",
+        "lastUpdated": "2026-03-26T23:37:42.738Z",
+        "gitCommitSha": "2cd88e7947b7382e045666abee790c7f55f669f3"
+      }
+    ],
+    "playwright@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "~/.claude/plugins/cache/claude-plugins-official/playwright/unknown",
+        "version": "unknown",
+        "installedAt": "2026-02-16T00:18:53.719Z",
+        "lastUpdated": "2026-03-26T23:37:42.734Z",
+        "gitCommitSha": "2cd88e7947b7382e045666abee790c7f55f669f3"
+      }
+    ],
+    "dx@ykdojo": [
+      {
+        "scope": "user",
+        "installPath": "~/.claude/plugins/cache/ykdojo/dx/0.14.8",
+        "version": "0.14.8",
+        "installedAt": "2026-02-18T03:01:08.030Z",
+        "lastUpdated": "2026-02-18T03:01:08.030Z",
+        "gitCommitSha": "020a6d5adff4e0d949c2207db8c02d64a96edd57"
+      }
+    ],
+    "andrej-karpathy-skills@karpathy-skills": [
+      {
+        "scope": "user",
+        "installPath": "~/.claude/plugins/cache/karpathy-skills/andrej-karpathy-skills/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-02-19T05:44:25.257Z",
+        "lastUpdated": "2026-02-19T05:44:25.257Z",
+        "gitCommitSha": "aa4467f0b33e1e80d11c7c043d4b27e7c79a73a3"
+      }
+    ],
+    "pyright-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "~/.claude/plugins/cache/claude-plugins-official/pyright-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-02-26T05:20:53.961Z",
+        "lastUpdated": "2026-02-26T05:20:53.961Z",
+        "gitCommitSha": "2cd88e7947b7382e045666abee790c7f55f669f3"
+      }
+    ],
+    "superpowers@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "~/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.6",
+        "version": "5.0.6",
+        "installedAt": "2026-03-09T00:41:51.161Z",
+        "lastUpdated": "2026-03-26T01:16:18.041Z",
+        "gitCommitSha": "e4a2375cb705ca5800f0833528ce36a3faf9017a"
+      }
+    ],
+    "pr-review-toolkit@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "~/.claude/plugins/cache/claude-plugins-official/pr-review-toolkit/unknown",
+        "version": "unknown",
+        "installedAt": "2026-03-09T00:42:06.835Z",
+        "lastUpdated": "2026-03-26T23:37:42.739Z",
+        "gitCommitSha": "2cd88e7947b7382e045666abee790c7f55f669f3"
+      }
+    ],
+    "ask-questions-if-underspecified@trailofbits": [
+      {
+        "scope": "user",
+        "installPath": "~/.claude/plugins/cache/trailofbits/ask-questions-if-underspecified/1.0.1",
+        "version": "1.0.1",
+        "installedAt": "2026-03-09T04:25:56.618Z",
+        "lastUpdated": "2026-03-09T04:25:56.618Z",
+        "gitCommitSha": "c6097699e4553f0dda4db615330f4a5097c4ff99"
+      }
+    ],
+    "modern-python@trailofbits": [
+      {
+        "scope": "user",
+        "installPath": "~/.claude/plugins/cache/trailofbits/modern-python/1.5.0",
+        "version": "1.5.0",
+        "installedAt": "2026-03-09T04:26:36.336Z",
+        "lastUpdated": "2026-03-09T04:26:36.336Z",
+        "gitCommitSha": "c6097699e4553f0dda4db615330f4a5097c4ff99"
+      }
+    ],
+    "skill-improver@trailofbits": [
+      {
+        "scope": "user",
+        "installPath": "~/.claude/plugins/cache/trailofbits/skill-improver/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-03-09T04:27:03.534Z",
+        "lastUpdated": "2026-03-09T04:27:03.534Z",
+        "gitCommitSha": "c6097699e4553f0dda4db615330f4a5097c4ff99"
+      }
+    ],
+    "claude-md-management@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "~/.claude/plugins/cache/claude-plugins-official/claude-md-management/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-03-10T06:05:42.854Z",
+        "lastUpdated": "2026-03-10T06:05:42.854Z",
+        "gitCommitSha": "2cd88e7947b7382e045666abee790c7f55f669f3"
+      }
+    ],
+    "security-guidance@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "~/.claude/plugins/cache/claude-plugins-official/security-guidance/unknown",
+        "version": "unknown",
+        "installedAt": "2026-03-10T06:06:02.680Z",
+        "lastUpdated": "2026-03-26T23:37:42.736Z",
+        "gitCommitSha": "2cd88e7947b7382e045666abee790c7f55f669f3"
+      }
+    ],
+    "agent-sdk-dev@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "~/.claude/plugins/cache/claude-plugins-official/agent-sdk-dev/unknown",
+        "version": "unknown",
+        "installedAt": "2026-03-10T06:06:21.872Z",
+        "lastUpdated": "2026-03-26T23:37:42.737Z",
+        "gitCommitSha": "2cd88e7947b7382e045666abee790c7f55f669f3"
+      }
+    ],
+    "hookify@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "~/.claude/plugins/cache/claude-plugins-official/hookify/unknown",
+        "version": "unknown",
+        "installedAt": "2026-03-10T06:06:33.523Z",
+        "lastUpdated": "2026-03-26T23:37:42.742Z",
+        "gitCommitSha": "2cd88e7947b7382e045666abee790c7f55f669f3"
+      }
+    ]
+  }
+}
