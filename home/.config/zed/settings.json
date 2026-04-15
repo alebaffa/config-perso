@@ -1,0 +1,201 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "when_closing_with_no_tabs": "close_window",
+  "on_last_window_closed": "quit_app",
+  "cursor_blink": true,
+  "show_wrap_guides": true,
+  "agent_servers": {
+      "claude-acp": {
+        "type": "registry",
+        "env": {
+          "CLAUDE_CODE_EXECUTABLE": "claude"
+        }
+      }
+    },
+  "languages": {
+    "Python": {
+          "colorize_brackets": true,
+          "indent_guides": {
+            "background_coloring": "disabled"
+          },
+    },
+    "JavaScript": {
+         "colorize_brackets": true,
+         "indent_guides": {
+           "background_coloring": "disabled"
+         }
+       },
+       "TypeScript": {
+         "colorize_brackets": true,
+         "indent_guides": {
+           "background_coloring": "disabled"
+         }
+    },
+    "Diff": {
+      "format_on_save": "off"
+    }
+  },
+  "soft_wrap": "none",
+  "toolbar": {
+    "code_actions": true,
+    "breadcrumbs": true
+  },
+  "minimap": {
+    "thumb": "always",
+    "max_width_columns": 90,
+    "display_in": "all_editors",
+    "show": "always"
+  },
+  "autosave": "on_focus_change",
+  "diff_view_style": "unified",
+  "colorize_brackets": true,
+  "inlay_hints": {
+      "show_background": false,
+      "enabled": false
+  },
+  "notification_panel": {
+      "button": true
+  },
+  "outline_panel": {
+      "button": true
+  },
+  "use_smartcase_search": true,
+  "git_panel": {
+    "sort_by_path": false,
+    "status_style": "label_color",
+    "collapse_untracked_diff": false,
+    "tree_view": false
+  },
+  "current_line_highlight": "all",
+  "text_rendering_mode": "platform_default",
+  "pane_split_direction_horizontal": "down",
+  "window_decorations": "client",
+  "agent": {
+    "show_turn_stats": true,
+    "play_sound_when_agent_done": true,
+    "favorite_models": [],
+    "model_parameters": [],
+    "tool_permissions": {
+      "default": "allow",
+      "tools": {}
+    }
+  },
+  "edit_predictions": {
+      "provider": "copilot",
+      "copilot": {
+        "enable_next_edit_suggestions": true
+      }
+    },
+  "tab_size": 4,
+  "restore_on_startup": "last_workspace",
+  "title_bar": {
+    "show_onboarding_banner": true,
+    "show_project_items": true,
+    "show_branch_name": true,
+    "show_menus": false,
+    "show_sign_in": true,
+    "show_user_picture": true,
+    "show_branch_icon": true
+  },
+  "zoomed_padding": true,
+  "ui_font_family": ".ZedSans",
+  "buffer_line_height": "comfortable",
+  "buffer_font_weight": 400,
+  "pane_split_direction_vertical": "right",
+  "centered_layout": {
+    "right_padding": null,
+    "left_padding": null
+  },
+  "preview_tabs": {
+    "enable_preview_from_file_finder": true
+  },
+  "status_bar": {
+    "cursor_position_button": true,
+    "active_language_button": true
+  },
+  "tab_bar": {
+    "show_pinned_tabs_in_separate_row": false,
+    "show_tab_bar_buttons": true,
+    "show_nav_history_buttons": true,
+    "show": true
+  },
+  "debugger": {
+      "button": true
+  },
+  "diagnostics": {
+    "button": true
+  },
+  "project_panel": {
+    "hide_hidden": false,
+    "sticky_scroll": true,
+    "scrollbar": {
+      "show": "auto"
+    },
+    "indent_size": 12,
+    "folder_icons": false,
+    "entry_spacing": "comfortable",
+    "hide_root": false,
+    "git_status": true,
+    "file_icons": true,
+    "dock": "left",
+    "button": true,
+    "hide_gitignore": false
+  },
+  "terminal": {
+    "dock": "right",
+    "toolbar": {
+      "breadcrumbs": true
+    },
+    "shell": "system",
+    "detect_venv": {
+          "on": {
+            // Default directories to search for virtual environments, relative
+            // to the current working directory. We recommend overriding this
+            // in your project's settings, rather than globally.
+            "directories": [".env", "env", ".venv", "venv"],
+            // Can also be `csh`, `fish`, and `nushell`
+            "activate_script": "default"
+          }
+        }
+  },
+  "scroll_beyond_last_line": "one_page",
+  "indent_guides": {
+    "enabled": true,
+    "coloring": "indent_aware"
+  },
+  "git": {
+    "branch_picker": {
+        "show_author_name": true
+    },
+    "inline_blame": {
+      "enabled": true,
+      "show_commit_summary": true
+    }
+  },
+  "tabs": {
+    "show_diagnostics": "all",
+    "show_close_button": "hover",
+    "close_position": "left",
+    "file_icons": true,
+    "git_status": true
+  },
+  "bottom_dock_layout": "contained",
+  "icon_theme": "Zed (Default)",
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Catppuccin Frappé - No Italics",
+  },
+}

@@ -1,0 +1,34 @@
+{
+  "show_wrap_guides": true,
+  "wrap_guides": [120],
+  "languages": {
+    "Python": {
+      "tab_size": 4,
+      "format_on_save": "on",
+      "language_servers": ["pyright", "ruff"],
+      "formatter": [
+        {
+          "external": {
+            "command": ".venv/bin/ruff",
+            "arguments": ["format", "-"]
+          }
+        }
+      ],
+      "inlay_hints": {
+        "enabled": true,
+        "show_type_hints": true,
+        "show_parameter_hints": true
+      }
+    }
+  },
+  "ensure_final_newline_on_save": true,
+  "remove_trailing_whitespace_on_save": true,
+  "file_scan_exclusions": [
+    "**/.git",
+    "**/__pycache__",
+    "**/.mypy_cache",
+    "**/.pytest_cache",
+    "**/.ruff_cache",
+    "**/*.pyc"
+  ]
+}

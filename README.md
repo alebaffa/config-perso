@@ -12,6 +12,20 @@ Personal dotfiles managed with [GNU Stow](https://www.gnu.org/software/stow/).
 | `.claude/settings.json` | Claude Code: plugins, hooks, model, output style |
 | `.claude/statusline*.{sh,txt}` | Claude Code status bar scripts |
 | `.claude/plugins/installed_plugins.json` | Claude Code plugin registry |
+| `.config/zed/settings.json` | Zed editor global settings |
+
+### Zed project templates (`zed/`)
+
+| File | Purpose |
+|------|---------|
+| `python-project.zed-settings.json` | Zed project-level settings for Python projects |
+
+Copy into any project's `.zed/settings.json` as needed:
+
+```bash
+mkdir -p <project-dir>/.zed
+cp zed/python-project.zed-settings.json <project-dir>/.zed/settings.json
+```
 
 ## Prerequisites
 
